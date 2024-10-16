@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: normal;
+}
+
+header {
+  background-color: #FF69B4;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+header img {
+  width: 18vh;
+  height: 18vh;
+  display: flex;
+  margin-left: 35px;
+}
+header h1 {
+  font-size: 26px;
+  margin-right: 50vh;
+}
+header nav {
+  list-style: none;
+}
+header li {
+  display: inline-block;
+  margin: 50px;
+  font-size: 22px;
+}
+
+.primeirasecao {
+  background-color: #FFD9EC;
+  font-size: 26px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
+}
+.primeirasecao img {
+  width: 58vh;
+  height: 58vh;
+}
+.primeirasecao .texto1 {
+  width: 100vh;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.segundasecao {
+  background-color: #FF69B4;
+  font-size: 26px;
+  color: rgb(245, 243, 243);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 45vh;
+}
+.segundasecao img {
+  width: 75vh;
+  height: 42vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.segundasecao .texto2 {
+  width: 100vh;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terceirasecao {
+  background-color: #FFD9EC;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+}
+.terceirasecao img {
+  width: 35vh;
+  height: 35vh;
+}
+
+footer {
+  background-color: #FF69B4;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+footer .icones {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .icones img {
+  width: 10vh;
+  height: 10vh;
+  margin-left: 5vh;
+}
+footer .creditos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .laco {
+  width: 17vh;
+  height: 17vh;
+  margin-right: 5vh;
+}/*# sourceMappingURL=style.css.map */
