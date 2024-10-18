@@ -117,4 +117,60 @@ footer .laco {
   width: 17vh;
   height: 17vh;
   margin-right: 5vh;
+}
+
+@media (max-width: 400px) {
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+  header img {
+    width: 12vh;
+    height: 12vh;
+  }
+  header h1 {
+    font-size: 20px;
+    margin-right: 0;
+  }
+  header nav li {
+    margin: 15px;
+    font-size: 15px;
+  }
+  .primeirasecao, .segundasecao, .terceirasecao {
+    flex-direction: column;
+    height: auto;
+  }
+  .primeirasecao img, .segundasecao img, .terceirasecao img {
+    width: 70%;
+    height: auto;
+  }
+  .primeirasecao .texto1, .primeirasecao .texto2, .segundasecao .texto1, .segundasecao .texto2, .terceirasecao .texto1, .terceirasecao .texto2 {
+    width: 85%;
+    height: auto;
+    font-size: 18px;
+    text-align: center;
+  }
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
+  footer .icones {
+    flex-direction: row;
+    margin-left: 0;
+  }
+  footer .icones img {
+    width: 10vh;
+    height: 10vh;
+    margin: 2vh;
+  }
+  footer .creditos {
+    align-items: center;
+    text-align: center;
+  }
+  footer .laco {
+    width: 12vh;
+    height: 12vh;
+    margin-right: 0;
+    margin-top: 2vh;
+  }
 }/*# sourceMappingURL=style.css.map */

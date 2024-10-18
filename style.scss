@@ -119,4 +119,63 @@ footer{
             margin-right: 5vh;
         }
 }
-    // me perdi no personagem nesse footer, mas acho que é isso.
+
+@media (max-width: 400px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        img {
+            width: 12vh;
+            height: 12vh;
+        }
+        h1 {
+            font-size: 20px;
+            margin-right: 0;
+        }
+        nav {
+            li {
+                margin: 15px;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .primeirasecao, .segundasecao, .terceirasecao {
+        flex-direction: column;
+        height: auto;
+        img {
+            width: 70%;
+            height: auto;
+        }
+        .texto1, .texto2 {
+            width: 85%;
+            height: auto;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        .icones {
+            flex-direction: row; 
+            margin-left: 0;
+            img {
+            width: 10vh;
+            height: 10vh;
+            margin: 2vh;
+            }
+        }
+        .creditos {
+            align-items: center;
+            text-align: center;
+        }
+        .laco {
+            width: 12vh;
+            height: 12vh;
+            margin-right: 0;
+            margin-top: 2vh;
+        }
+    }
+}
