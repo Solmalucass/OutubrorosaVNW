@@ -21,8 +21,12 @@ header img {
   margin-left: 35px;
 }
 header h1 {
-  font-size: 26px;
+  font-size: 24px;
   margin-right: 50vh;
+  transition: color 1s ease;
+}
+header h1:hover {
+  color: #f3097e;
 }
 header nav {
   list-style: none;
@@ -31,6 +35,10 @@ header li {
   display: inline-block;
   margin: 50px;
   font-size: 22px;
+  transition: color 1s ease;
+}
+header li:hover {
+  color: #f3097e;
 }
 
 .primeirasecao {
@@ -119,7 +127,7 @@ footer .laco {
   margin-right: 5vh;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   header {
     flex-direction: column;
     height: auto;
@@ -127,28 +135,42 @@ footer .laco {
   header img {
     width: 12vh;
     height: 12vh;
+    margin-left: 0;
   }
   header h1 {
     font-size: 20px;
     margin-right: 0;
+    margin-bottom: 10px;
   }
-  header nav li {
-    margin: 15px;
+  header nav {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  header li {
+    margin: 20px;
     font-size: 15px;
   }
-  .primeirasecao, .segundasecao, .terceirasecao {
+  .primeirasecao, .segundasecao {
     flex-direction: column;
     height: auto;
   }
-  .primeirasecao img, .segundasecao img, .terceirasecao img {
+  .primeirasecao img, .segundasecao img {
     width: 70%;
     height: auto;
   }
-  .primeirasecao .texto1, .primeirasecao .texto2, .segundasecao .texto1, .segundasecao .texto2, .terceirasecao .texto1, .terceirasecao .texto2 {
+  .primeirasecao .texto1, .primeirasecao .texto2, .segundasecao .texto1, .segundasecao .texto2 {
+    font-size: 16px;
     width: 85%;
     height: auto;
-    font-size: 18px;
     text-align: center;
+  }
+  .terceirasecao {
+    flex-direction: row;
+    height: auto;
+  }
+  .terceirasecao img {
+    width: 25%;
+    height: auto;
   }
   footer {
     flex-direction: column;
@@ -156,21 +178,86 @@ footer .laco {
   }
   footer .icones {
     flex-direction: row;
-    margin-left: 0;
+    margin-bottom: 10px;
   }
   footer .icones img {
-    width: 10vh;
-    height: 10vh;
-    margin: 2vh;
+    width: 8vh;
+    height: 8vh;
+    margin-left: 2vh;
   }
   footer .creditos {
-    align-items: center;
-    text-align: center;
+    margin-bottom: 10px;
   }
   footer .laco {
     width: 12vh;
     height: 12vh;
     margin-right: 0;
-    margin-top: 2vh;
+  }
+}
+@media (max-width: 1310px) {
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+  header img {
+    width: 12vh;
+    height: 12vh;
+    margin-left: 0;
+  }
+  header h1 {
+    font-size: 20px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  header nav {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  header li {
+    margin: 20px;
+    font-size: 15px;
+  }
+  .primeirasecao, .segundasecao {
+    flex-direction: column;
+    height: auto;
+  }
+  .primeirasecao img, .segundasecao img {
+    width: 70%;
+    height: auto;
+  }
+  .primeirasecao .texto1, .primeirasecao .texto2, .segundasecao .texto1, .segundasecao .texto2 {
+    font-size: 16px;
+    width: 85%;
+    height: auto;
+    text-align: center;
+  }
+  .terceirasecao {
+    flex-direction: row;
+    height: auto;
+  }
+  .terceirasecao img {
+    width: 25%;
+    height: auto;
+  }
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
+  footer .icones {
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  footer .icones img {
+    width: 8vh;
+    height: 8vh;
+    margin-left: 2vh;
+  }
+  footer .creditos {
+    margin-bottom: 10px;
+  }
+  footer .laco {
+    width: 12vh;
+    height: 12vh;
+    margin-right: 0;
   }
 }/*# sourceMappingURL=style.css.map */
